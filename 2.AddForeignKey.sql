@@ -1,0 +1,7 @@
+ALTER TABLE Students 
+ADD CONSTRAINT FK_CourseId FOREIGN KEY (FK_CourseId)     
+    REFERENCES Courses (CourseId)     
+    ON DELETE CASCADE    
+    ON UPDATE CASCADE; 
+
+GO
